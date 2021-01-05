@@ -17,7 +17,7 @@ class App extends Component {
           <Router>
             <Sidebar></Sidebar>
             <Switch>
-              <Route exact path="/" component={About} />
+              <Route exact path="/me" component={About} />
               <Route exact path="/about-me" component={About} />
               <Route exact path="/skills-and-interests" component={Skills} />
               <Route exact path="/experience" component={Experience} />
