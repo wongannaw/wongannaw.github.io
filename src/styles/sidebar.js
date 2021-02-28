@@ -8,7 +8,8 @@ export const StyledSideNav = styled.div`
   z-index: 1;      /* Stay on top of everything */
   background-color: #8c363e;
   overflow-x: hidden;     /* Disable horizontal scroll */
-  padding-top: 10px;
+  padding-top: 2%;
+  margin-left: 10%;
 `;
 
 export const StyledAuthHeader = styled.h4`

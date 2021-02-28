@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { SectionHeading, LeftImage, SubHead, RightP } from '../styles/about';
+import { SectionHeading, LeftImage, SubHead, RightP } from '../styles/content';
 import { Grid, Row, Col } from '../styles/grid';
 import { GlobalStyle } from '../styles/globalStyles';
 
@@ -9,9 +9,10 @@ export default class About extends Component {
       <Grid>
         <Row height={100}>
           <Col size={1}></Col>
-          <Col size={3}>
+          <Col size={2}>
             <SectionHeading>Howdy World! I'm Anna</SectionHeading>
           </Col>
+          <Col size={1}></Col>
         </Row>
         <Row height={500}>
           <Col size={1}></Col>
@@ -19,10 +20,10 @@ export default class About extends Component {
             <LeftImage></LeftImage>
           </Col>
           <Col size={2}>
-            <SubHead>About Me</SubHead>
+            <SubHead marginLeft='0%'>About Me</SubHead>
               <RightP>
                 Currently I am a Data Scientist working for IBM in Austin, TX.
-                I graduated from Carnegie Mellon University in 2018 with a BSc in Statistics and Machine Learning.
+                <br></br>I graduated from Carnegie Mellon University in 2018 with a BSc in Statistics and Machine Learning.
               </RightP>
           </Col>
         </Row>

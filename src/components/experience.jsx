@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from '../styles/grid';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import { SectionHeading } from '../styles/about';
+import { SectionHeading } from '../styles/content';
 import 'react-vertical-timeline-component/style.min.css';
 import EqualizerIcon from '@material-ui/icons/Equalizer';
 import SchoolIcon from '@material-ui/icons/School';
@@ -15,10 +15,11 @@ export default class Experience extends Component {
           <Col size={2}>
             <SectionHeading>Experience</SectionHeading>
           </Col>
+          <Col size={1}></Col>
         </Row>
         <Row height={500}>
           <Col size={1}></Col>
-          <Col size={4}>
+          <Col size={4} marginLeft="15%">
             <VerticalTimeline>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -64,6 +65,7 @@ export default class Experience extends Component {
               </VerticalTimelineElement>
             </VerticalTimeline>
           </Col>
+          <Col size={1}></Col>
         </Row>
       </Grid>
     )
